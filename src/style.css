@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-container {
+    background-color: #eff3f4;
+    width: 100%;
+    min-height: 99vh;
+    padding-top: 1vh;
+}
+#title {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 100px;
+}
+#list-container {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seminar-container {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    min-height: 200px;
+    width: 600px;
+    border-radius: 15px;
+    background-color: #d1dae5;
+    box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.2);
+    display: flex;
+}
+.start-seminar-container, .middle-seminar-container, .end-seminar-container {
+    height: 100%;
+}
+.start-seminar-container {
+    padding-left: 25px;
+    width: 25%;
+}
+.middle-seminar-container {
+    width: 50%;
+}
+.end-seminar-container {
+    width: 20%;
+}
+.datetime {
+    margin-top: 15px;
+    color: rgb(77, 77, 77);
+}
+.image {
+    margin-top: 15px;
+    height: 125px;
+    width: 125px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.name-seminar {
+    margin-top: 25px;
+    font-size: 25px;
+    color: rgb(38, 38, 38);
+}
+.description-seminar {
+    margin-top: 25px;
+    font-size: 17px;
+    color: rgb(38, 38, 38);
+    word-wrap: break-word;
+}
+.deleteBtn, .editBtn {
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 25px;
+    width: 25px;
+}
+.deleteBtn:hover, .editBtn:hover {
+    cursor: pointer;
+}
+.deleteBtn {
+    background-image: url("./ico/delete.svg");
+}
+.editBtn {
+    background-image: url("./ico/edit.svg");
+}
+#loadingText {
+    color: rgb(36, 36, 36);
+    font-size: 35px;
+}
